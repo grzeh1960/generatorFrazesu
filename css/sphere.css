@@ -1,0 +1,22 @@
+
+#canvasOne{
+  position:absolute;
+  transform:translate(-50%,-50%);
+  left:50%;
+  top:10%;
+  background-color:'';
+
+}
+/* #canvasOne p{
+  font-family:Montserrat;
+  font-size: 3.5rem;
+} */
+/* h4 {font-family: sans-serif; color:#555555; font-size:16px;}
+h3 {font-family: sans-serif; color:#555555;}
+p {font-family: sans-serif; color:#888888; font-size:14px;}
+a {font-family: sans-serif; color:#d15423; text-decoration:none;} */
+
+/* .slider{
+  width:500px;
+  background: rgb(207, 176, 0);
+} */

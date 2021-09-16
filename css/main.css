@@ -1,0 +1,191 @@
+*{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+     font-family: Montserrat;
+
+}
+
+#canvasOne{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    left:50%;
+    top:-400%;
+    background-color:'';
+    /* width:300px;
+    height:300px; */
+
+  }
+  #canvasTwo{
+      position:absolute;
+  }
+  
+  img{
+      display:none;
+  }
+.wrap {
+    position:relative;
+    width:100%;
+    height:100vh;
+    background:#eeeeee;
+    
+}
+.component{
+    width:100%;
+    height:100vh;
+    
+    overflow: hidden;
+}
+.component h1{
+    font-family:Montserrat;
+    font-size: 2rem;
+    color:#ffffff;
+    text-decoration:underline ;
+    font-weight: normal;
+}
+
+.logo{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    left:50%;
+    top:50%;
+}
+#startPage{
+    /* position:absolute;
+    width:100%;
+    height:100vh;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%); */
+    width:100%;
+    height:100vh;
+    background: url(../img/tlo01.jpg)center no-repeat;
+    background-size:cover;
+
+
+}
+#frazesyStrona{
+    width:100%;
+    height:100vh;
+    position:relative;
+
+    background: url(../img/tlo02.jpg)center no-repeat;
+    background-size:cover;
+    display:none;
+    
+}
+.center{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    width:100%;
+    height:100%;
+    top:50%;
+    left:50%;
+    overflow: hidden;
+    text-align: center;
+}
+#frazesyPlay{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:90%;
+}
+
+/* .button {
+    position: relative;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+
+    text-decoration:none;
+
+    padding: 0.5em 1.5em;
+    margin: 0.5em;
+    margin-top: 25rem;
+
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+
+    outline: 0;
+}
+button:active {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+} */
+.glass {
+    background: linear-gradient(
+      to bottom,
+      rgba(180,180,180,0.8) 0%,
+      rgba(180,180,180,0.5) 3%,
+      rgba(180,180,180,0.1) 45%,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,0.3) 28%,
+      rgba(0,0,0,0.3) 60%,
+      rgba(0,0,0,0.3) 65%,
+      rgba(255,255,255,0.3) 90%,
+      rgba(0,0,0,0.3) 95%,
+      rgba(0,0,0,0.3) 100%
+    ); /* W3C */
+    border-color: rgba(0, 0, 0, 0.6);
+    border-image: none;
+    border-style: solid;
+    border-width: 0px;
+    padding: 10px;
+    margin:10px;
+    font-size:1.1rem;
+    font-weight: bold;
+    
+    border-radius: 15px;
+
+    box-shadow:
+      0 1px 0 0 rgba(255, 255, 255, 0.4) inset,
+      0 2px 6px rgba(0, 0, 0, 0.5),
+      0 10px rgba(0, 0, 0, 0.05) inset;
+}
+/* tak wygląda niewidoczny button*/
+/* .glass2 {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+} */
+
+button:hover.clear-a {
+    color: rgba(255, 255, 255, 0.99);
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.99), 0px 0px 4px rgba(255, 255, 255, 0.75);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow:
+      0 1px 0 0 rgba(255, 255, 255, 0.4) inset,
+      0 2px 6px rgba(0, 0, 0, 0.5),
+      0 10px rgba(0, 0, 0, 0.05) inset,
+      0 0 5px 2px rgba(255, 255, 255, 0.75),
+      0 0 10px 2px rgba(255, 255, 255, 0.75) inset;
+}
+.haslo{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    width:100%;
+    height:20%;
+    top:90%;
+    left:50%;
+    text-align: center;
+    overflow: hidden;
+
+}
+.haslo p{
+
+   font-family:Montserrat;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:#000000;
+
+}

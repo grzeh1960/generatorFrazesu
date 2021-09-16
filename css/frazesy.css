@@ -1,0 +1,194 @@
+
+
+#frazesLogo{
+    background-color:#FFD700;
+    width:320px;
+    padding:10px;
+    margin:0 auto;
+
+}
+
+/* label {
+    font-size:4rem;
+    margin-bottom: 20px;
+} */
+/* input {
+    font-size:3.5rem;
+    width:300px;
+     margin-left: 20px;
+} */
+/* textarea{
+    margin-left: 35px;
+     width:280px;
+    font-size: 3rem;
+} */
+h3{
+    font-size:2.5rem;
+}
+
+.translate {
+    position:absolute;
+    transform:translate(-50%,-50%);
+    left:50%;
+    top:49%;
+    width:100vw;
+    background: rgba(237, 252, 27, 0.9);
+
+    display: none;
+    margin-top:20px;
+    padding:20px;
+    border-top: solid 2px;
+    animation:translateRun 0.5s ease-out;
+
+}
+@keyframes translateRun {
+    0% {opacity:0;}
+    
+    100%{opacity:1;}
+}
+
+.translate p {
+    font-size:1.2rem;
+    font-family: Roboto;
+}
+
+h2 {
+    font-size:2rem;
+}
+
+/
+#openpost {
+    display:none;
+}
+       
+#frazes {
+    position:absolute;
+    transform:translate(-50%, -50%);
+    left:50%;
+    top:30%;
+    width:100vw;
+    height:35vh;
+    text-align: center;
+    background-image: url(../img/gadacz.jpg);
+    background-size:cover;
+}
+
+       
+      
+.buttonPanel {
+    position:absolute;
+    transform:translate(-50%, -50%);
+    top:70%;
+    left:50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.kulkaIn {
+    position:absolute;
+    transform:translate(-50%, -50%);
+    width:95vw;
+    height:120px;
+    border-radius: 40px;
+    border-style: solid;
+    border-color:rgb(63, 63, 63);
+    background-color: rgb(221, 221, 221);
+    left:50%;
+    top:45%;
+    opacity:0.9;
+    animation: kulkaRun 1s ease-in
+}
+@keyframes kulkaRun {
+    0%{top:65%; opacity:1; width:20px; height:20px;left:80%;}
+    25%{top:85%; opacity:1; width:20px; height:20px;left:80%;}
+    45%{top:68%; opacity:1; width:20px; height:20px;left:80%;}
+    60%{top:85%; opacity:1; width:20px; height:20px;left:80%;}
+    85%{top:75; opacity:1; width:20px; height:20px;left:80%;}
+    95%{top:85;opacity:1; width:80px; height:80px;left:80%;}
+    100%{top:45%; opacity:0.9; width:95vw; height:140px;left:50%;}
+
+}
+#ludek{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    background-image: url(../img/ludek01.png);
+    width:105px;
+    height:174px;
+    background-size:cover;
+    left:85%;
+    top:95%;
+    overflow: hidden;
+
+}
+#headerTranslate{
+    text-align: center;
+}
+#closeTranslatePanel {
+    display:flex;
+    justify-content: center;
+}
+#distance {
+    height:20px;
+}
+   
+.textFrazesuIn{
+    position:relative;
+    margin: 0 20px;
+    padding:5% 0;
+    opacity:1;
+    animation: textFrazesuInRun 1 ease-out;
+    
+}
+@keyframes textFrazesuInRun {
+    /* from {display:'none';}
+    to {display:'flex';} */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+.textFrazesuIn p{
+    opacity:1;
+    font-size: 1.5em;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    display:'none';
+    
+}
+ 
+
+.textFrazesuOut{
+    display: none;
+   
+    animation: textFrazesuOutRun 0.1 ease-out;
+}
+@keyframes textFrazesuOutRun {
+    from {opacity:1;}
+    to {opacity:0;}
+
+}
+
+.pulse{
+    position:absolute;
+    transform:translate(-50%, -50%);
+    left:10%;
+    top:40%;
+    display:none;
+    z-index: 1000;
+    opacity:1;
+    animation: wowPulse 0.3s;
+    animation-iteration-count: 3;
+   
+
+}
+@keyframes wowPulse {
+    0%{opacity:0;}
+   50%{opacity:1;}
+    100%{opacity:0;}
+
+}
+@keyframes wowRun {
+
+}
+
